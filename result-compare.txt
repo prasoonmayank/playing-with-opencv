@@ -1,0 +1,11 @@
+Logo	Scene		TM_CCOEFF	TM_CCOEFF_NORMED	TM_CCORR	TM_CCORR_NORMED	TM_SQDIFF	TM_SQDIFF_NORMED
+
+Fk		fk_scene		0			0.6					0.8			0.8				0.8				0.8
+Fk      fk_scene2		0.6			0.6					0.7			0.7				0.7				0.7
+Ms		ms_scene		0.6			0.6					0.5			0.5				1.0				1.0
+Ms      ms_scene2		0.4			0.4					0.5			0.5				0.5				0.5
+Ms      ms_bg2			0			0.4(very far)		0			0				0				0.5(very far)
+Vw		vw-scene		1(big area)	1(big area)			1(big area)	1(big area)		1(big area)		1(big area)
+shell	shell-scene		0			0					0			0				0				0
+moz		moz-scene		0			0					0.2			0.2				0.3				0.3
+

@@ -1,0 +1,5 @@
+Understanding features
+
+The idea is to look for specific patterns in the image, which are unique that can be easily tracked.
+
+Harris Feature Detection
