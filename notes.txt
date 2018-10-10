@@ -3,3 +3,15 @@ Understanding features
 The idea is to look for specific patterns in the image, which are unique that can be easily tracked.
 
 Harris Feature Detection
+It is used for corner detection in different set of images. It calculates the intensity difference around the corners to identidy the image.
+
+Shi-Tomasi Corner Detection
+What this does is it finds all the corners with the Harris Feature Detection. We specify the number of corners we are looking for. And a quality level of the corners in the range of 0-1. And finally, we provide the minimum euclidean distance between all the corners that are to be accepted.
+
+Earlier studied in the corner detectors, the given features were not scale invariant, because on zooming, the corner may become flat which cant be detected anymore
+
+SIFT feature detector:
+Guassian pyramid is used in this case for image detection. It is a patented algorithm for feature detection
+
+FAST Algorithm for Corner detection:
+Most algorithms are good, but from a real time application point of view, they are not fast enough. One eg is SLAM(Simultaneous Localization and Mapping) mobile robot with limited computational resources. The idea is to select any pixel and see the surrounding pixels in a circle. If they are brighter than p, we look at further bigger circle.
